@@ -1,0 +1,24 @@
+name: Suggest a feature
+description: Share an idea for Ritmo.
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Suggestions are public. Do not include private account details or crash logs."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to improve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your suggestion
+      description: How would this help you use Ritmo?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Ritmo version (optional)

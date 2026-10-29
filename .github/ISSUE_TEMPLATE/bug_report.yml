@@ -4,7 +4,7 @@ title: "[Bug]: "
 body:
   - type: markdown
     attributes:
-      value: "This report is public. Do not paste raw crash logs, passwords, account details or private links. A private support destination is still being configured."
+      value: "All Ritmo reports are handled here on GitHub and are public. Do not paste raw crash logs, passwords, account details or private links. Review any screenshots or diagnostic excerpts before posting."
   - type: input
     id: version
     attributes:

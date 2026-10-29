@@ -1,0 +1,37 @@
+name: Report a problem
+description: Describe a reproducible Ritmo problem.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "This report is public. Do not paste raw crash logs, passwords, account details or private links. A private support destination is still being configured."
+  - type: input
+    id: version
+    attributes:
+      label: Ritmo version and build
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone model and Android version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
